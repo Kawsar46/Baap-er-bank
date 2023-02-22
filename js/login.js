@@ -14,9 +14,9 @@ console.log( email, password);
 // step-4 varify email and password
 
 if(email === 'kawsar@gmail.com' && password === 'secret'){
-    console.log('valid user')
+    window.location.href = 'bank.html';
 }
 else{
-    console.log('invalid user')
+    alert('tui password vule gesis keno toke ar amar dorkar nai')
 }
 })
